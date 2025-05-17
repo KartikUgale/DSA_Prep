@@ -22,5 +22,6 @@ public class Q3{
         Float Total = Pencil+Pen+Eraser;
         System.out.println("\n Total : "+ Total);
 
+        sc.close();
     }
 }
