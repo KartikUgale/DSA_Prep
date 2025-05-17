@@ -41,5 +41,6 @@ public class Snake_Water_Gun{
                 System.out.println("Something went Wrong!");
             }
         }
+        sc.close();
     }
 }
