@@ -191,7 +191,7 @@ class Person {
     }
 }
 
-public class Main {
+public class Main{
     public static void main(String[] args) {
         Person p = new Person("Alice");
         p.display(); // Output: Hello, my name is Alice
@@ -209,7 +209,7 @@ The `this` keyword refers to the **current instance** of a class.
 class Student {
     String name;
     
-    Student(String name) {
+    Student(String name){
         this.name = name; // Refers to instance variable
     }
 }
@@ -312,5 +312,5 @@ public class Main {
 | Purpose | Focuses on **what** an object does | Focuses on **how** an object's data is protected |
 | Example | Abstract class `Animal` with `makeSound()` method | `Employee` class with private `salary` variable and public `getSalary()` method |
 
-Would you like more examples or explanations? 🚀
+
 
