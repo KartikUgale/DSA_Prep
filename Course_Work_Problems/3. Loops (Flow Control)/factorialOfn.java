@@ -6,7 +6,7 @@ public class factorialOfn {
 
         System.out.print("Enter Number: ");
         int num = sc.nextInt();
-        
+
         int factorial = 1;
         if (num < 0) {
             System.out.print("Number is -ve");

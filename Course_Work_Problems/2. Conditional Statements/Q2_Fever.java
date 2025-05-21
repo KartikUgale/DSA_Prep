@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Q2_Fever {
     public static void main(String args[]) {
-        Scanner sc = new Scanner (System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter Your Temperature in F");
         float YourTemp = sc.nextFloat();

@@ -29,7 +29,7 @@ public class PrimeInRange {
     public static void printPrimeRange(int num) {
         for (int i = 2; i <= num; i++) {
             if (isPrime(i)) {
-                System.out.print(i+" ");
+                System.out.print(i + " ");
             }
         }
         System.out.println();

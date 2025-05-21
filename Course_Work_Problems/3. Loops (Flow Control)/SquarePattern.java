@@ -1,16 +1,16 @@
 import java.util.*;
 
 public class SquarePattern {
-    public static void main (String args[]) {
-        Scanner sc = new Scanner (System.in);
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter number");
         int num = sc.nextInt();
-        
+
         System.out.println("---For Loop---");
 
-        for (int i=1; i<=num; i++) {
-            for (int j=1; j<=num; j++) {
+        for (int i = 1; i <= num; i++) {
+            for (int j = 1; j <= num; j++) {
                 System.out.print("O ");
             }
             System.out.println();

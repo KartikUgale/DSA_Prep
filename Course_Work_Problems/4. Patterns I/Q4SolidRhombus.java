@@ -12,9 +12,10 @@ public class Q4SolidRhombus {
             for (int i = 1; i <= num; i++) {
                 StarPattern(i, num);
             }
-            for (int i = num-1; i >= 1; i--) {
+            for (int i = num - 1; i >= 1; i--) {
                 StarPattern(i, num);
-            } time++;
+            }
+            time++;
         }
 
         sc.close();

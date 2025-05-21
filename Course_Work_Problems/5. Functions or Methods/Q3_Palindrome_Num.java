@@ -5,9 +5,10 @@
 
 import java.util.*;
 
-public class Q3 {
-    public static void main(String [] args) {
-        Scanner sc = new Scanner (System.in);
+public class Q3_Palindrome_Num {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
         while (true) {
             System.out.print("Enter Number: ");
             int num = sc.nextInt();
@@ -19,19 +20,23 @@ public class Q3 {
         int givenNum = n;
         int pow = -1, newNum = 0;
 
-        while (n>0) {
+        while (n > 0) {
             pow++;
-            n/=10;
+            n /= 10;
         }
+
         n = givenNum;
-        while (n>0) {
+        while (n > 0) {
             int LastDig = n % 10;
-            newNum = newNum + (LastDig * (int)Math.pow(10,pow));
-            n/=10;
+            newNum = newNum + (LastDig * (int) Math.pow(10, pow));
+            n /= 10;
             pow--;
         }
-        if (givenNum == newNum) return true;
-        else return false;
+
+        if (givenNum == newNum)
+            return true;
+        else
+            return false;
     }
 
     public static void printStatus(int number) {

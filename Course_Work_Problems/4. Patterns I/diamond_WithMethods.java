@@ -10,21 +10,21 @@ public class diamond_WithMethods {
         if (stars % 2 == 0) {
             int num = stars / 2;
             for (int i = 1; i <= num; i++) {
-                DiamondPattern(i,num);
+                DiamondPattern(i, num);
             }
             for (int i = num; i >= 1; i--) {
                 DiamondPattern(i, num);
             }
         } else {
-            int num = (stars+1)/2;
-            for (int i=1; i<=num; i++) {
+            int num = (stars + 1) / 2;
+            for (int i = 1; i <= num; i++) {
                 OddPattern(i, num);
             }
-            for (int i = num-1; i >= 1; i--) {
-                OddPattern(i,num);
+            for (int i = num - 1; i >= 1; i--) {
+                OddPattern(i, num);
             }
         }
-        System.out.println(stars+" x "+stars);
+        System.out.println(stars + " x " + stars);
         sc.close();
     }
 
@@ -37,12 +37,12 @@ public class diamond_WithMethods {
         }
         System.out.println();
     }
-    
-    public static void OddPattern(int i, int num){
+
+    public static void OddPattern(int i, int num) {
         for (int j = 1; j <= num - i; j++) {
             System.out.print("  ");
         }
-        for (int k = 1; k <= (i + i)-1; k++) {
+        for (int k = 1; k <= (i + i) - 1; k++) {
             System.out.print("* ");
         }
         System.out.println();
