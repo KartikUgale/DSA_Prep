@@ -6,7 +6,7 @@ public class breakQue {
         
         // while(true){
         //     int num = sc.nextInt();
-        //     if((num%10) == 0){
+        //     if ((num%10) == 0){
         //         System.out.println("Divisable by 10");
         //         break;
         //     }
