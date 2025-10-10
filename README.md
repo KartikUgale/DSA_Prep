@@ -83,7 +83,7 @@ Special thanks to [Shradha Khapra](https://www.linkedin.com/company/amandhatterw
 
 ## 📄 License
 
-This repository is created <span style="color:#ff4d4d; font-weight:bold">for learning and educational purposes only </span> as part of my journey in the **Alpha Plus Course (Apna College)**.
+This repository is created **for learning and educational purposes only** as part of my journey in the **Alpha Plus Course (Apna College)**.
 
 ---
 <span style="color:orange" > If you like this repository, please give it a ⭐️ and share ↗ it!</span>
