@@ -1,4 +1,4 @@
-# 🚀 Alpha Curriculum - Apna College
+# 🚀 Alpha plus Course (JAVA + DSA) - Apna College
 
 > *"Let not the fruit of action be your motive to action. Your concern is with action alone, not with the fruit of action."*  
 > — **The Bhagavad Gita**
@@ -68,7 +68,7 @@
 - **Binary Search Trees (BSTs)** – Search, Insert, Delete, Balanced BST Concepts  
 
 ---
-## 🧑‍💻 Author : Kartik Ugale    
+## 🧑‍💻 Learner : Kartik Ugale    
 
 💼 Full Stack Developer | Java | SpringBoot      
 🌐 [Linkedin](https://www.linkedin.com/in/kartik-ugale)
