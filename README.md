@@ -5,6 +5,13 @@
 
 ---
 
+## 📘 About This Repository
+
+This repository contains my DSA Java programs completed during the Alpha Plus Course by Apna College.
+
+It serves as my personal learning record and a resource for others who want to explore Java and DSA systematically.
+---
+
 ## 📘 Course Overview
 
 **Alpha Curriculum (Java + Data Structures & Algorithms)** by **Apna College** is a comprehensive 4-month program designed to help you master **Java**, **DSA**, and **problem-solving** techniques for top tech company interviews.
